@@ -6,12 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/tcl/tb8765ap1_bsp
 
 PRODUCT_COPY_FILES += \
-    vendor/tcl/tb8765ap1_bsp/proprietary/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.oplus.compat:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.oplus.compat \
-    vendor/tcl/tb8765ap1_bsp/proprietary/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.oppo.compat:$(TARGET_COPY_OUT_SYSTEM)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.oppo.compat \
     vendor/tcl/tb8765ap1_bsp/proprietary/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf \
     vendor/tcl/tb8765ap1_bsp/proprietary/etc/fake_audio_policy_volume.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fake_audio_policy_volume.xml \
-    vendor/tcl/tb8765ap1_bsp/proprietary/etc/init/android.hardware.biometrics.fingerprint@2.1-service.oplus.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.oplus.rc \
-    vendor/tcl/tb8765ap1_bsp/proprietary/etc/init/android.hardware.biometrics.fingerprint@2.1-service.oppo.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.oppo.rc \
     vendor/tcl/tb8765ap1_bsp/proprietary/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_SYSTEM)/etc/seccomp_policy/mediacodec.policy \
     vendor/tcl/tb8765ap1_bsp/proprietary/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/usb_audio_policy_configuration.xml \
     vendor/tcl/tb8765ap1_bsp/proprietary/lib/libmedia_codeclist.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmedia_codeclist.so \
@@ -26,9 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.mediatek.hardware.radio@2.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.radio@2.4.so \
     vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.mediatek.hardware.radio@2.5.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.radio@2.5.so \
     vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.mediatek.hardware.radio@2.6.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.radio@2.6.so \
-    vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
-    vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so \
-    vendor/tcl/tb8765ap1_bsp/proprietary/lib/vendor.xiaomi.hardware.motor@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.motor@1.0.so \
     vendor/tcl/tb8765ap1_bsp/proprietary/product/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf \
     vendor/tcl/tb8765ap1_bsp/proprietary/system_ext/apex/com.android.media.swcodec/lib/android.hardware.media.bufferpool@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.media.swcodec/lib/android.hardware.media.bufferpool@2.0.so \
     vendor/tcl/tb8765ap1_bsp/proprietary/system_ext/apex/com.android.vndk.current/lib/android.hardware.cas.native@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/apex/com.android.vndk.current/lib/android.hardware.cas.native@1.0.so \
